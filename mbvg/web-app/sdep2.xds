@@ -1,0 +1,82 @@
+{
+    "name": "sdep2",
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "directAPI": "",
+        "spacesToIndent": 4,
+        "codeGenFormat": "Class",
+        "exportPath": "",
+        "extPath": "http://extjs.cachefly.net/touch/sencha-touch-designer-edition/",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "lineEnding": "LF",
+        "instantiateStore": true,
+        "genTimestamps": false,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
+        "cssPath": ""
+    },
+    "xdsVersion": "2.0.0",
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "f0b65e54-dc32-44ff-b5fe-9efe8787e7c6": {
+            "paths": [
+                "app/view/MyContainer.js",
+                "app/view/ui/MyContainer.js"
+            ],
+            "className": "MyContainer"
+        },
+        "713cc700-03b5-4cd2-a610-c1f4b44329d7": {
+            "paths": [
+                "app/controller/MyController.js"
+            ],
+            "className": "MyController"
+        },
+        "3f781bf1-f570-4c84-80cb-5b00d0982c3d": {
+            "paths": [
+                "app/store/MyJsonStore.js",
+                "app/store/base/MyJsonStore.js"
+            ],
+            "className": "MyJsonStore"
+        },
+        "c631ccdb-7d33-4fa6-a2d5-62aaa9a102f6": {
+            "paths": [
+                "app/store/MyStore.js",
+                "app/store/base/MyStore.js"
+            ],
+            "className": "MyStore"
+        },
+        "50ad9855-d576-4869-8e29-ba6ac37682bc": {
+            "paths": [
+                "app/model/Deps.js"
+            ],
+            "className": "Deps"
+        },
+        "35dcf480-fe47-417e-8944-c2171fb5601c": {
+            "paths": [
+                "app/model/Departure.js"
+            ],
+            "className": "Departure"
+        },
+        "7e3ab517-a6d4-4696-b015-50768045089f": {
+            "paths": [
+                "app/model/MyModel2.js"
+            ],
+            "className": "MyModel2"
+        },
+        "2be2a1e1-3d84-4d73-9a6a-165c35867efa": {
+            "paths": [
+                "app/view/TitleContainer.js",
+                "app/view/ui/TitleContainer.js"
+            ],
+            "className": "TitleContainer"
+        }
+    },
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true
+    }
+}
